@@ -49,6 +49,20 @@
     <img src="obrazky/arch-logo.webp" width="80" alt="Arch Linux logo zmenšené">
 </p> 
 
+<h3>Odkazy</h3>
+
+
+    
+    <a href="http://www.lukan.cz">odkaz na Lukáš Bloguje</a>
+
+   
+<h3>Elementy</h3>
+    
+    <h3>Lukan <a href="https://lukan.cz">Lukáš Bloguje</a></h3>
+	
+    
+
+
 </body>
 
 </html>  
