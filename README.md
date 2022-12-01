@@ -142,6 +142,12 @@ Pokud chcete do webu vložit odkaz použijete tag a a za něj vložíte atribut 
 ``` 
 
 <h3>Elementy</h3>
+
+Element vám vloží například za nadpis Odkaz na článek. Odkaz vložíme mezi tagy h1 - h6.
+
+``` 
+ <h3>Lukan <a href="https://lukan.cz">Lukáš Bloguje</a></h3>
+``` 
     
     
 
