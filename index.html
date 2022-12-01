@@ -1,66 +1,32 @@
 
 
-<!-- Základy html, toto je začátečnický tutorial na první statický web.
-* Později až si vytvoříme vlastní web tak si ho nahrajeme na internet a naučíme se dělat k vačí stránce podstránky. Zatím budeme pracovat u sebe v počítači.
-* Pokud si dovašeho projektu chcete udělat poznámku zapíšete ji do --> <!-- text -->
-<!-- Vaši první stránku si uložíte jako index.htlm.
-* Já používám na tworbu webu IDE Brackets https://brackets.io/
-* Doporučuji si nainstalovat plugin HTLM SKELETON co vám sám vypíše strukturu vaši stránky.
-* Svůj projekt si pravidelně ukládejte pomocí CTRL-S.
-* Váš první projekt vždy začínejte tím že si vytvoříte soubor index.htlm . Nebo v programu v kterém budete tvořit web,
-  dáte založit, vytvořit nový projekt (všude se to může jmenovat trochu jinak). Než začnete psát svúj web tak tento projet než budete
-  mít jedinou řádku kódu uložíte jako index.htm. Pak už můžete začít psát. Tímto postupem řeknete vašemu IDE (programu napsaní webu)
-  že se jedná o webovou stránku co budete psát a on se přizpůsobí tomuto projektu.
-* htlm je tzv. značkovací jazyk a skládá se ze značek, tzv. tagů. 
-* Tagy začínají "<něco>(podle toho co chcete zapsat) mezi tagy je text </neco>(a zde je konec tagu)". Vše zapisujeme do tagu.
-* Tag zapíšeme pravý alt+? a al+:. * je pravý alt+--- klávesa hned vedle otazníku.
-* Atributy jsou obsah v tagách, například: lang="cs-cz", hodnotu atributu můžeme zapsat do "".
-* K náhledu vaší práce můžete v Brackets použít v pravo nahoře ikonu blesku.
 
-* náš nový projekt začne hlavičkou -->
 
 <!DOCTYPE html>
-<html lang="cs-cz"> <!-- tímto nastavíme lokalizaci, na slovensku budou mít např: sk -->
+<html lang="cs-cz"> 
 <head>
-    <meta charset="utf-8"> <!-- utf-8 je kódování a informace pro prohlížeče, utf-8 musí podporovat váše
-                           IDE v čem děláte web -->
+    <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kankys Project</title> <!-- zde napíšeme název vašeho projektu, pak ho uvidíte nahoře v záložce jak otevřete projekt v prohlížeči -->
+    <title>Kankys Project</title> 
 </head>
 
-<!-- zde je samotné tělo stránky, to co vydíme na webu je ohraničeno v body-->
+
 <body> 
 <h1>Zde začíná tvůj Projekt!</h1>
 <h3>Tagy</h3>    
     
-<!-- odstavce vytvoříme pomocí p.
- Pro lepší přehlednost kódu, po každem tagu začínáme novím řádkem --> 
+
 <p> Zde je první odstavec </p> 
-<!-- br slouží odřádkování, za br uděláme mezeru -->
+
 <p> Druhý odstavec. Zde navíc máme odřádkování pomocí br. <br /> 
 <p> A třetí odstavec. A věta v něm. </p>
-
-<!-- Tagy, zde si vypíšeme základní tagy pro úpravu textu. 
-U tagu musíme dodržovat jejich pořadí při ukončení když jich chcete použít více.
-Pozor některé tagy mohou způsobit chybu při jejich kombinaci, méně je někdy více.
-Pokud si chcete zvýšit SEO tak používejte STRONG, když je potřeba zdůraznit název, jméno,
-důležitou informaci. Prohlížeče upřednostňují strong, ale používejte ho z rozmyslem. -->
-<!-- Pokud potřebujeme něco označit tučně, použijeme v tag strong. -->
 <p> Pomocí tagu <strong>STRONG</strong> mohu psát tučně </p>
-<!-- Výrazem em zapíšeme kurzívu -->
 <p> Pomocí tagu "em" <em>budeme psát kurzívou</em></p>
-<!-- Text si podtrhneme pomocí u -->
 <p> Svůj text si můžete <u>podtrhnout</u> pomocí tagu u </p>
-<!-- Text si můžete i přeškrtnout díky tagu s -->
 <p> Mám rád <s>tučné</s> zdravé jídlo. </p>
-<!-- K zvýraznění slouží tag mark, automaticky zvýrazňuje žlutě -->
 <p> Pokud sděluji něco důležitého tak to <mark>žlutě zvýrazním.</mark></p>
 <p><strong><u><em> Kombinace tagu </em></u></strong></p> 
     
-<!-- Dalčí důležitou věcí co je potřeba umět v základech jsou nadpisi.
-Nadpisy máme sěsti typů dle velikosti.
-Zapisují se do tagu a to jako h1 až h6.
-Vždy musí tag začínat i končit stejným h, nejde kombinovat h2 a h3. -->
 
 <h1>Nadpisy v HTLM h1</h1>
 <h2>Nadpisy v HTLM h2</h2> 
@@ -69,33 +35,15 @@ Vždy musí tag začínat i končit stejným h, nejde kombinovat h2 a h3. -->
 <h5>Nadpisy v HTLM h5</h5>
 <h6>Nadpisy v HTLM h6</h6>
 
-<!-- Tak základní jednoduchou stránku umíme, ale co by byl web bez obrázku.
-Důležitá věc, obrázky nebo složku z obrázky, které budete chtít dát na web do stejné složky.
-v budoucnu až by jsme nahrávali vaši stránku na web tak by se obrázky nezobrazili. Nebo i pokud by jste pracovali na více počítačích
-a přenášely pouze složku z index.html také by vám to nešlo. -->
+
 
 <h3>Obrázky</h3>  
-<!-- Obrázky vkládáme pouze do jednoho tagu takzvaně nepárovaného.
-Obrazek vlozime do tagu img a použijeme atributy:
-src: cesta k obrázku
-alt: popis obrázku, ten je velmi důležitý hlavně pro lidi, kteří jsou znevýhodněni zrakovou vadou (k tomuto tématu se dostaneme později, jak 
-co nejlépe nastavit web pro tyto lidi a bude tomu věnovaný samostatný tutorial) a nebo jen lidi kteří používají třeba čtečku textu v mhd. -->
 
-<!-- Do složky, kde máme web vytvoříme složku obrazky a do ní vložime obrázek co chceme vložit do své stránky.
-Pak už jen nastavíme cestu k obrázku a popis obrázku.
-Obrázky vkládejde JPEG, PNG nebo WepP u jiných formátu nedokážu zaručit koretní zobrazení.
-Cestu k obrázku nezadávejte celou kde ji máte na disku, pouze zadejte cestu obrazky/a obrazek.
-Vaše stránka kouká pouze do složky kde máte index.html
-Také nedoporučuji vkládat obrázky jako odkaz někam na internet. Může se stát že by je někdo smazal a nevím jak by to bylo s jejich funkšností.-->
 <p>
     <img src="obrazky/arch-logo.webp" alt="Arch Linux logo">
 </p>   
 
-<!-- U obrázku můžeme měnit rozměry pomocí atributů width a height.
-Hodnoty se zadjí buď jako pixeli "10" nebo procenta "10%"
-Pokud zadáte jen jeden atribut druhý se automaticky dopočítá.
-Pozor obrazek se nezmwnšuje, ale pouze zobrazuje menší či jinak rozměrově upravený!!!
-Pokud obrázek chcete zmenšit protože je veliký, musíte použít na to specializovaný program -->
+
 
 <h4>Obrázek Arch Linux zmenšený</h4>    
     
@@ -104,14 +52,7 @@ Pokud obrázek chcete zmenšit protože je veliký, musíte použít na to speci
     <img src="obrazky/arch-logo.webp" width="80" alt="Arch Linux logo zmenšené">
 </p> 
     
-<h3>Odkazy</h3>
-    
-    
-    
 
-    
-
-
-</body>
+    </body>
 
 </html>
