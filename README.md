@@ -148,14 +148,65 @@ Element vám vloží například za nadpis Odkaz na článek. Odkaz vložíme me
 ``` 
  <h3>Lukan <a href="https://lukan.cz">Lukáš Bloguje</a></h3>
 ``` 
-    
-    
 
-    
+<h2>První podstránka</h2>
 
 
+Už se blížíme ke konci první části našeho seriálu. Na konec prvních kroků z html si vyrobíme pod stránku. Začneme stejně jako, když jsme zakládaly index.html.
+
+My si vytvoříme stránku O mě.
+
+Vytvoříme prázdný dokument o-me-html.
+
+Do ní vložíme pomocí pluginu skeleton kostru stránky. A nastavíme ji podle mě.
+
+``` 
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+  <meta charset="utf-8">
+  <title>O mě</title>
+</head>
+``` 
+
+Při zadávání textu nezapomeňte používat tagy -p- a -br-.
+
+``` 
+<body>
+    <h1>O mě</h1>
+    <p>
+    Jsem IT nadšenec s pozitivním přístupem k životu a vášní pro technologie, ve kterých se neustále vzdělávám. Absolvoval jsem kurz testingu a SQL v Acamaru.
+    </p>
+    
+    <p>
+Ve volném čase se věnuji:<br>
+Svému blogu <a href="https://lukan.cz"></a>.<br>
+Linuxu, MacOS a Opensource.<br>
+Jsem členem spolku Arch Linux CZ, kde se podílím na správě webu <a href="https://arch-linux.cz"></a> a dalších webových aplikacích (NextCloud, Bitwarden, Mastodon atd.).<br>
+Správě webových stránek pro neziskovou canisterapeutku – <a href="https://terapiesepsem.cz"></a>.<br>
+Seberozvoji v oblasti komunikace a emoční inteligence.<br>
+Sportu, který mi dobíjí baterky.<br>
+    </p>
+ ```    
+
+Na závěr si uděláme pro klik na hlavní stranu. Na hlavní straně také uděláme pro klik na stránku o mě stejným způsobem.
+
+``` 
+<p><a href="index.html">Zpět na hlavní stranu</a></p>    
+  
 </body>
-
 </html>
+``` 
+
+Doufám že vám tento tutoriál pomohl budu velmi rád, když mi napíšete.
+
+A do budoucna určitě zde budu přidávat další obsah okolo html.
+
+    
+    
+
+    
+
+
 
 Běží na Gitea Verze: 1.17.3 Strana: 52ms Šablona : 7ms Licence API Webové stránky
