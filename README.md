@@ -133,7 +133,15 @@ Pokud obrázek chcete zmenšit protože je veliký, musíte použít na to speci
 ```
     
 <h3>Odkazy</h3>
-    
+
+Pokud chcete do webu vložit odkaz použijete tag a a za něj vložíte atribut href a navíc si odkaz v šipkách pojmenujete.
+
+```
+ <a href="http://www.lukan.cz">odkaz na Lukáš Bloguje</a>
+
+``` 
+
+<h3>Elementy</h3>
     
     
 
