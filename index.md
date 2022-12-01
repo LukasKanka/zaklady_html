@@ -1,5 +1,5 @@
 
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="cs-cz"> 
 <head>
     <meta charset="utf-8"> 
@@ -10,6 +10,7 @@
 
 <body> 
 <h1>Zde začíná tvůj Projekt!</h1>
+<h2><a href="o-me.html">O mě </a></h2>    
 <h3>Tagy</h3>    
     
 
@@ -50,22 +51,21 @@
 </p> 
 
 <h3>Odkazy</h3>
-
-
     
     <a href="http://www.lukan.cz">odkaz na Lukáš Bloguje</a>
 
-   
 <h3>Elementy</h3>
     
     <h3>Lukan <a href="https://lukan.cz">Lukáš Bloguje</a></h3>
-	
     
 
 
-</body>
 
-</html>  
+
+
+   </body>
+
+</html>
 
     
     
